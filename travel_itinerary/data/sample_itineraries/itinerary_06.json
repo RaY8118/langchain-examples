@@ -1,0 +1,153 @@
+{
+  "traveler_name": "Traveler 6",
+  "traveler_email": "traveler6@example.com",
+  "trip_title": "One-Way Trip to Singapore",
+  "destination": "Singapore",
+  "start_date": "2025-02-10",
+  "end_date": "2025-02-13",
+  "total_travelers": 3,
+  "flights": [],
+  "accommodations": [
+    {
+      "name": "Ritz-Carlton Singapore",
+      "address": "764 Central Street",
+      "city": "Singapore",
+      "country": "Singapore",
+      "check_in": "2025-02-10",
+      "check_out": "2025-02-13",
+      "room_type": "Suite",
+      "confirmation_number": "CONF267999",
+      "amenities": [
+        "Bar",
+        "Gym",
+        "Restaurant",
+        "Business Center",
+        "Airport Shuttle",
+        "Pool"
+      ],
+      "contact_phone": "+1-555-860-2229"
+    }
+  ],
+  "transports": [
+    {
+      "mode": "Shuttle",
+      "provider": "Shuttle",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "04:30",
+      "arrival_time": "02:15",
+      "date": "2025-02-10",
+      "booking_reference": "TR46043",
+      "cost": 113.25,
+      "currency": "USD"
+    },
+    {
+      "mode": "Shuttle",
+      "provider": "Shuttle",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "11:00",
+      "arrival_time": "23:45",
+      "date": "2025-02-12",
+      "booking_reference": "TR47762",
+      "cost": 32.84,
+      "currency": "USD"
+    },
+    {
+      "mode": "Rental Car",
+      "provider": "Enterprise",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "01:00",
+      "arrival_time": "02:00",
+      "date": "2025-02-10",
+      "booking_reference": "CAR519205",
+      "cost": 83.78,
+      "currency": "USD"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Gardens by the Bay",
+      "description": "Visit and enjoy Gardens by the Bay in Singapore",
+      "location": "Marina Bay, Singapore",
+      "city": "Singapore",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "date": "2025-02-10",
+      "category": "Park",
+      "booking_reference": "ACT68035",
+      "cost": 52.89,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "Sentosa Island",
+      "description": "Visit and enjoy Sentosa Island in Singapore",
+      "location": "Sentosa, Singapore",
+      "city": "Singapore",
+      "start_time": "11:30",
+      "end_time": "14:00",
+      "date": "2025-02-10",
+      "category": "Beach",
+      "booking_reference": "ACT40637",
+      "cost": 120.04,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "Universal Studios",
+      "description": "Visit and enjoy Universal Studios in Singapore",
+      "location": "Sentosa, Singapore",
+      "city": "Singapore",
+      "start_time": "13:30",
+      "end_time": "17:00",
+      "date": "2025-02-11",
+      "category": "Theme Park",
+      "booking_reference": "ACT81276",
+      "cost": 15.26,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "Sentosa Island",
+      "description": "Visit and enjoy Sentosa Island in Singapore",
+      "location": "Sentosa, Singapore",
+      "city": "Singapore",
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "date": "2025-02-11",
+      "category": "Beach",
+      "booking_reference": "ACT35750",
+      "cost": 15.91,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "Gardens by the Bay",
+      "description": "Visit and enjoy Gardens by the Bay in Singapore",
+      "location": "Marina Bay, Singapore",
+      "city": "Singapore",
+      "start_time": "16:00",
+      "end_time": "18:00",
+      "date": "2025-02-12",
+      "category": "Park",
+      "booking_reference": "ACT35518",
+      "cost": 14.88,
+      "currency": "USD",
+      "notes": null
+    }
+  ],
+  "preferences": {
+    "budget_level": "low",
+    "interests": [
+      "Adventure",
+      "Nature",
+      "Sports"
+    ],
+    "dietary_restrictions": [],
+    "mobility_needs": null,
+    "preferred_language": "en"
+  },
+  "notes": "Excited to explore Singapore!"
+}

@@ -1,0 +1,220 @@
+{
+  "traveler_name": "Traveler 3",
+  "traveler_email": "traveler3@example.com",
+  "trip_title": "One-Way Trip to London",
+  "destination": "London",
+  "start_date": "2025-07-12",
+  "end_date": "2025-07-16",
+  "total_travelers": 1,
+  "flights": [],
+  "accommodations": [
+    {
+      "name": "Novotel London",
+      "address": "29 Ocean Street",
+      "city": "London",
+      "country": "UK",
+      "check_in": "2025-07-12",
+      "check_out": "2025-07-16",
+      "room_type": "Presidential Suite",
+      "confirmation_number": "CONF688545",
+      "amenities": [
+        "Pool",
+        "Room Service",
+        "WiFi"
+      ],
+      "contact_phone": "+1-555-849-8435"
+    }
+  ],
+  "transports": [
+    {
+      "mode": "Ferry",
+      "provider": "Budget",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "15:00",
+      "arrival_time": "19:00",
+      "date": "2025-07-15",
+      "booking_reference": "CAR970280",
+      "cost": 124.69,
+      "currency": "USD"
+    },
+    {
+      "mode": "Train",
+      "provider": "Enterprise",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "11:45",
+      "arrival_time": "00:30",
+      "date": "2025-07-15",
+      "booking_reference": "CAR933236",
+      "cost": 158.41,
+      "currency": "USD"
+    },
+    {
+      "mode": "Train",
+      "provider": "Budget",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "22:00",
+      "arrival_time": "10:45",
+      "date": "2025-07-15",
+      "booking_reference": "CAR493314",
+      "cost": 79.5,
+      "currency": "USD"
+    }
+  ],
+  "activities": [
+    {
+      "name": "London Eye",
+      "description": "Visit and enjoy London Eye in London",
+      "location": "Southbank, London",
+      "city": "London",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "date": "2025-07-12",
+      "category": "Attraction",
+      "booking_reference": "ACT16053",
+      "cost": 129.95,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "British Museum",
+      "description": "Visit and enjoy British Museum in London",
+      "location": "Bloomsbury, London",
+      "city": "London",
+      "start_time": "12:30",
+      "end_time": "15:00",
+      "date": "2025-07-12",
+      "category": "Museum",
+      "booking_reference": "ACT37886",
+      "cost": 119.37,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "Big Ben",
+      "description": "Visit and enjoy Big Ben in London",
+      "location": "Westminster, London",
+      "city": "London",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "date": "2025-07-13",
+      "category": "Landmark",
+      "booking_reference": "ACT85376",
+      "cost": 83.93,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "British Museum",
+      "description": "Visit and enjoy British Museum in London",
+      "location": "Bloomsbury, London",
+      "city": "London",
+      "start_time": "11:00",
+      "end_time": "14:30",
+      "date": "2025-07-13",
+      "category": "Museum",
+      "booking_reference": "ACT88901",
+      "cost": 135.55,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "Big Ben",
+      "description": "Visit and enjoy Big Ben in London",
+      "location": "Westminster, London",
+      "city": "London",
+      "start_time": "16:00",
+      "end_time": "18:00",
+      "date": "2025-07-13",
+      "category": "Landmark",
+      "booking_reference": "ACT82134",
+      "cost": 126.97,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "British Museum",
+      "description": "Visit and enjoy British Museum in London",
+      "location": "Bloomsbury, London",
+      "city": "London",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "date": "2025-07-14",
+      "category": "Museum",
+      "booking_reference": "ACT48379",
+      "cost": 25.61,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "Tower of London",
+      "description": "Visit and enjoy Tower of London in London",
+      "location": "Tower Hill, London",
+      "city": "London",
+      "start_time": "12:30",
+      "end_time": "13:30",
+      "date": "2025-07-14",
+      "category": "Landmark",
+      "booking_reference": "ACT60595",
+      "cost": 113.42,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "Louvre Museum",
+      "description": "Visit and enjoy Louvre Museum in Paris",
+      "location": "1st arrondissement, Paris",
+      "city": "Paris",
+      "start_time": "14:30",
+      "end_time": "16:30",
+      "date": "2025-07-15",
+      "category": "Museum",
+      "booking_reference": "ACT32762",
+      "cost": 69.83,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    },
+    {
+      "name": "Montmartre",
+      "description": "Visit and enjoy Montmartre in Paris",
+      "location": "18th arrondissement, Paris",
+      "city": "Paris",
+      "start_time": "16:30",
+      "end_time": "18:30",
+      "date": "2025-07-15",
+      "category": "Neighborhood",
+      "booking_reference": "ACT13017",
+      "cost": 17.95,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "Louvre Museum",
+      "description": "Visit and enjoy Louvre Museum in Paris",
+      "location": "1st arrondissement, Paris",
+      "city": "Paris",
+      "start_time": "16:30",
+      "end_time": "20:30",
+      "date": "2025-07-15",
+      "category": "Museum",
+      "booking_reference": "ACT80853",
+      "cost": 117.62,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    }
+  ],
+  "preferences": {
+    "budget_level": "high",
+    "interests": [
+      "Sightseeing",
+      "Shopping",
+      "Adventure"
+    ],
+    "dietary_restrictions": [],
+    "mobility_needs": null,
+    "preferred_language": "en"
+  },
+  "notes": "Excited to explore London!"
+}

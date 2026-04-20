@@ -1,0 +1,236 @@
+{
+  "traveler_name": "Traveler 12",
+  "traveler_email": "traveler12@example.com",
+  "trip_title": "Multi-City Trip to Bangkok",
+  "destination": "Bangkok",
+  "start_date": "2025-05-14",
+  "end_date": "2025-05-19",
+  "total_travelers": 2,
+  "flights": [
+    {
+      "flight_number": "UA0024",
+      "airline": "United Airlines",
+      "departure_airport": "JFK",
+      "arrival_airport": "BKK",
+      "departure_time": "08:15",
+      "arrival_time": "16:15",
+      "departure_date": "2025-05-14",
+      "arrival_date": "2025-05-14",
+      "gate": "A4",
+      "terminal": "2",
+      "seat": "12B",
+      "class_type": "Economy",
+      "baggage_allowance": "1 checked bag"
+    }
+  ],
+  "accommodations": [
+    {
+      "name": "Sheraton Bangkok",
+      "address": "321 Grand Street",
+      "city": "Bangkok",
+      "country": "Singapore",
+      "check_in": "2025-05-14",
+      "check_out": "2025-05-19",
+      "room_type": "Suite",
+      "confirmation_number": "CONF565801",
+      "amenities": [
+        "Pool",
+        "Room Service",
+        "Airport Shuttle",
+        "Restaurant"
+      ],
+      "contact_phone": "+1-555-941-5766"
+    }
+  ],
+  "transports": [
+    {
+      "mode": "Bus",
+      "provider": "Public Transport",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "18:00",
+      "arrival_time": "17:15",
+      "date": "2025-05-18",
+      "booking_reference": null,
+      "cost": 5.18,
+      "currency": "USD"
+    },
+    {
+      "mode": "Taxi",
+      "provider": "Taxi",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "05:00",
+      "arrival_time": "05:00",
+      "date": "2025-05-16",
+      "booking_reference": "TR26021",
+      "cost": 149.74,
+      "currency": "USD"
+    },
+    {
+      "mode": "Rental Car",
+      "provider": "Budget",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "18:45",
+      "arrival_time": "21:00",
+      "date": "2025-05-16",
+      "booking_reference": "CAR596099",
+      "cost": 125.85,
+      "currency": "USD"
+    }
+  ],
+  "activities": [
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Bangkok",
+      "location": "City Center, Bangkok",
+      "city": "Bangkok",
+      "start_time": "13:00",
+      "end_time": "15:00",
+      "date": "2025-05-14",
+      "category": "Sightseeing",
+      "booking_reference": "ACT40593",
+      "cost": 49.07,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Bangkok",
+      "location": "City Center, Bangkok",
+      "city": "Bangkok",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "date": "2025-05-15",
+      "category": "Sightseeing",
+      "booking_reference": "ACT26721",
+      "cost": 95.68,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Bangkok",
+      "location": "City Center, Bangkok",
+      "city": "Bangkok",
+      "start_time": "10:30",
+      "end_time": "13:30",
+      "date": "2025-05-16",
+      "category": "Sightseeing",
+      "booking_reference": "ACT96923",
+      "cost": 119.62,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Bangkok",
+      "location": "City Center, Bangkok",
+      "city": "Bangkok",
+      "start_time": "13:30",
+      "end_time": "17:00",
+      "date": "2025-05-16",
+      "category": "Sightseeing",
+      "booking_reference": "ACT47845",
+      "cost": 47.76,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Bangkok",
+      "location": "City Center, Bangkok",
+      "city": "Bangkok",
+      "start_time": "09:30",
+      "end_time": "12:00",
+      "date": "2025-05-16",
+      "category": "Sightseeing",
+      "booking_reference": "ACT13976",
+      "cost": 2.48,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "Marina Bay Sands",
+      "description": "Visit and enjoy Marina Bay Sands in Singapore",
+      "location": "Marina Bay, Singapore",
+      "city": "Singapore",
+      "start_time": "12:30",
+      "end_time": "13:30",
+      "date": "2025-05-17",
+      "category": "Landmark",
+      "booking_reference": "ACT73389",
+      "cost": 92.1,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    },
+    {
+      "name": "Gardens by the Bay",
+      "description": "Visit and enjoy Gardens by the Bay in Singapore",
+      "location": "Marina Bay, Singapore",
+      "city": "Singapore",
+      "start_time": "16:30",
+      "end_time": "19:00",
+      "date": "2025-05-17",
+      "category": "Park",
+      "booking_reference": "ACT91267",
+      "cost": 123.05,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "Chinatown",
+      "description": "Visit and enjoy Chinatown in Singapore",
+      "location": "Chinatown, Singapore",
+      "city": "Singapore",
+      "start_time": "09:30",
+      "end_time": "12:30",
+      "date": "2025-05-18",
+      "category": "Neighborhood",
+      "booking_reference": "ACT60812",
+      "cost": 131.1,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "Chinatown",
+      "description": "Visit and enjoy Chinatown in Singapore",
+      "location": "Chinatown, Singapore",
+      "city": "Singapore",
+      "start_time": "09:30",
+      "end_time": "10:30",
+      "date": "2025-05-18",
+      "category": "Neighborhood",
+      "booking_reference": "ACT96945",
+      "cost": 19.05,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "Universal Studios",
+      "description": "Visit and enjoy Universal Studios in Singapore",
+      "location": "Sentosa, Singapore",
+      "city": "Singapore",
+      "start_time": "09:30",
+      "end_time": "12:00",
+      "date": "2025-05-18",
+      "category": "Theme Park",
+      "booking_reference": "ACT81161",
+      "cost": 17.25,
+      "currency": "USD",
+      "notes": "Bring camera"
+    }
+  ],
+  "preferences": {
+    "budget_level": "medium",
+    "interests": [
+      "Sports",
+      "Shopping"
+    ],
+    "dietary_restrictions": [],
+    "mobility_needs": null,
+    "preferred_language": "en"
+  },
+  "notes": "Excited to explore Bangkok!"
+}

@@ -1,0 +1,156 @@
+{
+  "traveler_name": "Traveler 16",
+  "traveler_email": "traveler16@example.com",
+  "trip_title": "One-Way Trip to Berlin",
+  "destination": "Berlin",
+  "start_date": "2025-03-07",
+  "end_date": "2025-03-10",
+  "total_travelers": 1,
+  "flights": [],
+  "accommodations": [
+    {
+      "name": "Sheraton Berlin",
+      "address": "970 Central Street",
+      "city": "Berlin",
+      "country": "Singapore",
+      "check_in": "2025-03-07",
+      "check_out": "2025-03-10",
+      "room_type": "Suite",
+      "confirmation_number": "CONF852523",
+      "amenities": [
+        "Restaurant",
+        "Parking",
+        "Pool",
+        "Business Center",
+        "Airport Shuttle",
+        "Spa"
+      ],
+      "contact_phone": "+1-555-152-9795"
+    }
+  ],
+  "transports": [
+    {
+      "mode": "Train",
+      "provider": "Avis",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "04:15",
+      "arrival_time": "13:45",
+      "date": "2025-03-08",
+      "booking_reference": "CAR803093",
+      "cost": 76.55,
+      "currency": "USD"
+    },
+    {
+      "mode": "Train",
+      "provider": "Avis",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "19:00",
+      "arrival_time": "03:30",
+      "date": "2025-03-09",
+      "booking_reference": "CAR280025",
+      "cost": 194.51,
+      "currency": "USD"
+    },
+    {
+      "mode": "Rental Car",
+      "provider": "Hertz",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "08:30",
+      "arrival_time": "07:45",
+      "date": "2025-03-09",
+      "booking_reference": "CAR679615",
+      "cost": 167.4,
+      "currency": "USD"
+    }
+  ],
+  "activities": [
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Berlin",
+      "location": "City Center, Berlin",
+      "city": "Berlin",
+      "start_time": "09:30",
+      "end_time": "12:30",
+      "date": "2025-03-07",
+      "category": "Sightseeing",
+      "booking_reference": "ACT59838",
+      "cost": 50.49,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Berlin",
+      "location": "City Center, Berlin",
+      "city": "Berlin",
+      "start_time": "13:30",
+      "end_time": "14:00",
+      "date": "2025-03-07",
+      "category": "Sightseeing",
+      "booking_reference": "ACT99849",
+      "cost": 146.23,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Berlin",
+      "location": "City Center, Berlin",
+      "city": "Berlin",
+      "start_time": "09:30",
+      "end_time": "13:30",
+      "date": "2025-03-08",
+      "category": "Sightseeing",
+      "booking_reference": "ACT43733",
+      "cost": 8.45,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Berlin",
+      "location": "City Center, Berlin",
+      "city": "Berlin",
+      "start_time": "15:30",
+      "end_time": "19:00",
+      "date": "2025-03-08",
+      "category": "Sightseeing",
+      "booking_reference": "ACT84914",
+      "cost": 136.75,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Berlin",
+      "location": "City Center, Berlin",
+      "city": "Berlin",
+      "start_time": "11:30",
+      "end_time": "14:30",
+      "date": "2025-03-09",
+      "category": "Sightseeing",
+      "booking_reference": "ACT91096",
+      "cost": 0.98,
+      "currency": "USD",
+      "notes": "Bring camera"
+    }
+  ],
+  "preferences": {
+    "budget_level": "low",
+    "interests": [
+      "Shopping",
+      "Sports",
+      "Nature",
+      "Cultural"
+    ],
+    "dietary_restrictions": [
+      "Gluten-free"
+    ],
+    "mobility_needs": null,
+    "preferred_language": "en"
+  },
+  "notes": "Excited to explore Berlin!"
+}

@@ -1,0 +1,239 @@
+{
+  "traveler_name": "Traveler 7",
+  "traveler_email": "traveler7@example.com",
+  "trip_title": "Round-Trip Trip to Dubai",
+  "destination": "Dubai",
+  "start_date": "2025-11-10",
+  "end_date": "2025-11-15",
+  "total_travelers": 4,
+  "flights": [
+    {
+      "flight_number": "DL0014",
+      "airline": "Lufthansa",
+      "departure_airport": "LHR",
+      "arrival_airport": "DXB",
+      "departure_time": "06:00",
+      "arrival_time": "11:00",
+      "departure_date": "2025-11-10",
+      "arrival_date": "2025-11-10",
+      "gate": "A39",
+      "terminal": "8",
+      "seat": "10B",
+      "class_type": "Premium Economy",
+      "baggage_allowance": "1 checked bag"
+    },
+    {
+      "flight_number": "AA0015",
+      "airline": "United Airlines",
+      "departure_airport": "DXB",
+      "arrival_airport": "LHR",
+      "departure_time": "19:15",
+      "arrival_time": "05:15",
+      "departure_date": "2025-11-15",
+      "arrival_date": "2025-11-16",
+      "gate": "A41",
+      "terminal": "4",
+      "seat": "11F",
+      "class_type": "Premium Economy",
+      "baggage_allowance": "Carry-on only"
+    }
+  ],
+  "accommodations": [
+    {
+      "name": "Novotel Dubai",
+      "address": "243 Grand Street",
+      "city": "Dubai",
+      "country": "UAE",
+      "check_in": "2025-11-10",
+      "check_out": "2025-11-15",
+      "room_type": "Executive Suite",
+      "confirmation_number": "CONF393322",
+      "amenities": [
+        "Pool",
+        "Spa",
+        "Airport Shuttle",
+        "Restaurant",
+        "Gym"
+      ],
+      "contact_phone": "+1-555-829-8875"
+    }
+  ],
+  "transports": [
+    {
+      "mode": "Train",
+      "provider": "Hertz",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "18:45",
+      "arrival_time": "03:00",
+      "date": "2025-11-11",
+      "booking_reference": "CAR100415",
+      "cost": 53.12,
+      "currency": "USD"
+    },
+    {
+      "mode": "Shuttle",
+      "provider": "Shuttle",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "22:00",
+      "arrival_time": "10:15",
+      "date": "2025-11-12",
+      "booking_reference": "TR47263",
+      "cost": 60.0,
+      "currency": "USD"
+    },
+    {
+      "mode": "Taxi",
+      "provider": "Taxi",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "17:00",
+      "arrival_time": "18:15",
+      "date": "2025-11-13",
+      "booking_reference": "TR88376",
+      "cost": 127.6,
+      "currency": "USD"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Dubai Mall",
+      "description": "Visit and enjoy Dubai Mall in Dubai",
+      "location": "Downtown, Dubai",
+      "city": "Dubai",
+      "start_time": "10:30",
+      "end_time": "11:30",
+      "date": "2025-11-10",
+      "category": "Shopping",
+      "booking_reference": "ACT89894",
+      "cost": 125.34,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "Dubai Mall",
+      "description": "Visit and enjoy Dubai Mall in Dubai",
+      "location": "Downtown, Dubai",
+      "city": "Dubai",
+      "start_time": "15:30",
+      "end_time": "19:30",
+      "date": "2025-11-10",
+      "category": "Shopping",
+      "booking_reference": "ACT83372",
+      "cost": 147.83,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "Dubai Marina",
+      "description": "Visit and enjoy Dubai Marina in Dubai",
+      "location": "Marina, Dubai",
+      "city": "Dubai",
+      "start_time": "14:00",
+      "end_time": "16:30",
+      "date": "2025-11-10",
+      "category": "Neighborhood",
+      "booking_reference": "ACT79664",
+      "cost": 99.8,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "Palm Jumeirah",
+      "description": "Visit and enjoy Palm Jumeirah in Dubai",
+      "location": "Palm Jumeirah, Dubai",
+      "city": "Dubai",
+      "start_time": "09:30",
+      "end_time": "10:30",
+      "date": "2025-11-11",
+      "category": "Landmark",
+      "booking_reference": "ACT85025",
+      "cost": 147.73,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "Burj Khalifa",
+      "description": "Visit and enjoy Burj Khalifa in Dubai",
+      "location": "Downtown, Dubai",
+      "city": "Dubai",
+      "start_time": "11:30",
+      "end_time": "15:30",
+      "date": "2025-11-12",
+      "category": "Landmark",
+      "booking_reference": "ACT68431",
+      "cost": 94.88,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "Desert Safari",
+      "description": "Visit and enjoy Desert Safari in Dubai",
+      "location": "Desert, Dubai",
+      "city": "Dubai",
+      "start_time": "13:00",
+      "end_time": "15:00",
+      "date": "2025-11-12",
+      "category": "Adventure",
+      "booking_reference": "ACT32182",
+      "cost": 42.7,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "Palm Jumeirah",
+      "description": "Visit and enjoy Palm Jumeirah in Dubai",
+      "location": "Palm Jumeirah, Dubai",
+      "city": "Dubai",
+      "start_time": "09:00",
+      "end_time": "13:00",
+      "date": "2025-11-12",
+      "category": "Landmark",
+      "booking_reference": "ACT63660",
+      "cost": 95.19,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Bangkok",
+      "location": "City Center, Bangkok",
+      "city": "Bangkok",
+      "start_time": "13:30",
+      "end_time": "16:30",
+      "date": "2025-11-13",
+      "category": "Sightseeing",
+      "booking_reference": "ACT78824",
+      "cost": 64.19,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Bangkok",
+      "location": "City Center, Bangkok",
+      "city": "Bangkok",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "date": "2025-11-14",
+      "category": "Sightseeing",
+      "booking_reference": "ACT16482",
+      "cost": 117.94,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    }
+  ],
+  "preferences": {
+    "budget_level": "medium",
+    "interests": [
+      "Relaxation",
+      "Sightseeing",
+      "Museum"
+    ],
+    "dietary_restrictions": [],
+    "mobility_needs": null,
+    "preferred_language": "en"
+  },
+  "notes": "Excited to explore Dubai!"
+}

@@ -1,0 +1,196 @@
+{
+  "traveler_name": "Traveler 9",
+  "traveler_email": "traveler9@example.com",
+  "trip_title": "Round-Trip Trip to Rome",
+  "destination": "Rome",
+  "start_date": "2025-04-21",
+  "end_date": "2025-04-25",
+  "total_travelers": 2,
+  "flights": [
+    {
+      "flight_number": "EK0018",
+      "airline": "United Airlines",
+      "departure_airport": "BKK",
+      "arrival_airport": "ROM",
+      "departure_time": "14:30",
+      "arrival_time": "17:30",
+      "departure_date": "2025-04-21",
+      "arrival_date": "2025-04-21",
+      "gate": "D21",
+      "terminal": "1",
+      "seat": "18A",
+      "class_type": "Economy",
+      "baggage_allowance": "Carry-on only"
+    },
+    {
+      "flight_number": "UA0019",
+      "airline": "Qatar Airways",
+      "departure_airport": "ROM",
+      "arrival_airport": "BKK",
+      "departure_time": "08:00",
+      "arrival_time": "12:00",
+      "departure_date": "2025-04-25",
+      "arrival_date": "2025-04-25",
+      "gate": "D39",
+      "terminal": "5",
+      "seat": "28A",
+      "class_type": "First",
+      "baggage_allowance": "2 checked bags"
+    }
+  ],
+  "accommodations": [
+    {
+      "name": "Sheraton Rome",
+      "address": "953 Ocean Street",
+      "city": "Rome",
+      "country": "Singapore",
+      "check_in": "2025-04-21",
+      "check_out": "2025-04-25",
+      "room_type": "Suite",
+      "confirmation_number": "CONF829463",
+      "amenities": [
+        "Parking",
+        "Business Center",
+        "Restaurant",
+        "Gym"
+      ],
+      "contact_phone": "+1-555-111-2169"
+    }
+  ],
+  "transports": [
+    {
+      "mode": "Rental Car",
+      "provider": "Budget",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "09:15",
+      "arrival_time": "17:00",
+      "date": "2025-04-22",
+      "booking_reference": "CAR283971",
+      "cost": 107.3,
+      "currency": "USD"
+    },
+    {
+      "mode": "Shuttle",
+      "provider": "Shuttle",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "02:45",
+      "arrival_time": "05:15",
+      "date": "2025-04-21",
+      "booking_reference": "TR74432",
+      "cost": 121.19,
+      "currency": "USD"
+    },
+    {
+      "mode": "Metro",
+      "provider": "Public Transport",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "18:15",
+      "arrival_time": "14:00",
+      "date": "2025-04-24",
+      "booking_reference": null,
+      "cost": 4.28,
+      "currency": "USD"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Trevi Fountain",
+      "description": "Visit and enjoy Trevi Fountain in Rome",
+      "location": "Centro Storico, Rome",
+      "city": "Rome",
+      "start_time": "10:00",
+      "end_time": "12:30",
+      "date": "2025-04-21",
+      "category": "Landmark",
+      "booking_reference": "ACT66138",
+      "cost": 56.46,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "Trevi Fountain",
+      "description": "Visit and enjoy Trevi Fountain in Rome",
+      "location": "Centro Storico, Rome",
+      "city": "Rome",
+      "start_time": "10:30",
+      "end_time": "12:00",
+      "date": "2025-04-22",
+      "category": "Landmark",
+      "booking_reference": "ACT49301",
+      "cost": 110.22,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    },
+    {
+      "name": "Roman Forum",
+      "description": "Visit and enjoy Roman Forum in Rome",
+      "location": "Centro Storico, Rome",
+      "city": "Rome",
+      "start_time": "15:00",
+      "end_time": "19:00",
+      "date": "2025-04-23",
+      "category": "Archaeological",
+      "booking_reference": "ACT68756",
+      "cost": 56.0,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "Vatican Museums",
+      "description": "Visit and enjoy Vatican Museums in Rome",
+      "location": "Vatican City, Rome",
+      "city": "Rome",
+      "start_time": "12:00",
+      "end_time": "14:30",
+      "date": "2025-04-23",
+      "category": "Museum",
+      "booking_reference": "ACT54772",
+      "cost": 63.22,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Berlin",
+      "location": "City Center, Berlin",
+      "city": "Berlin",
+      "start_time": "12:30",
+      "end_time": "16:30",
+      "date": "2025-04-24",
+      "category": "Sightseeing",
+      "booking_reference": "ACT25746",
+      "cost": 22.39,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Berlin",
+      "location": "City Center, Berlin",
+      "city": "Berlin",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "date": "2025-04-24",
+      "category": "Sightseeing",
+      "booking_reference": "ACT50436",
+      "cost": 101.22,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    }
+  ],
+  "preferences": {
+    "budget_level": "low",
+    "interests": [
+      "Adventure",
+      "Nightlife",
+      "Sports"
+    ],
+    "dietary_restrictions": [],
+    "mobility_needs": null,
+    "preferred_language": "en"
+  },
+  "notes": "Excited to explore Rome!"
+}

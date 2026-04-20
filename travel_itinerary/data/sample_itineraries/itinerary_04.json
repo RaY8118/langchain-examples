@@ -1,0 +1,282 @@
+{
+  "traveler_name": "Traveler 4",
+  "traveler_email": "traveler4@example.com",
+  "trip_title": "Multi-City Trip to Paris",
+  "destination": "Paris",
+  "start_date": "2025-09-19",
+  "end_date": "2025-09-25",
+  "total_travelers": 1,
+  "flights": [
+    {
+      "flight_number": "AA0008",
+      "airline": "Emirates",
+      "departure_airport": "FRA",
+      "arrival_airport": "CDG",
+      "departure_time": "17:45",
+      "arrival_time": "21:45",
+      "departure_date": "2025-09-19",
+      "arrival_date": "2025-09-19",
+      "gate": "B39",
+      "terminal": "3",
+      "seat": "34F",
+      "class_type": "Business",
+      "baggage_allowance": "2 checked bags"
+    }
+  ],
+  "accommodations": [
+    {
+      "name": "Mandarin Oriental Paris",
+      "address": "128 Grand Street",
+      "city": "Paris",
+      "country": "France",
+      "check_in": "2025-09-19",
+      "check_out": "2025-09-25",
+      "room_type": "Executive Suite",
+      "confirmation_number": "CONF972921",
+      "amenities": [
+        "Gym",
+        "Pool",
+        "Business Center",
+        "Parking"
+      ],
+      "contact_phone": "+1-555-454-5362"
+    }
+  ],
+  "transports": [
+    {
+      "mode": "Taxi",
+      "provider": "Taxi",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "01:45",
+      "arrival_time": "02:15",
+      "date": "2025-09-22",
+      "booking_reference": "TR92869",
+      "cost": 88.08,
+      "currency": "USD"
+    },
+    {
+      "mode": "Metro",
+      "provider": "Public Transport",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "10:15",
+      "arrival_time": "12:45",
+      "date": "2025-09-21",
+      "booking_reference": null,
+      "cost": 6.82,
+      "currency": "USD"
+    },
+    {
+      "mode": "Rental Car",
+      "provider": "Budget",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "23:00",
+      "arrival_time": "07:30",
+      "date": "2025-09-19",
+      "booking_reference": "CAR130550",
+      "cost": 102.26,
+      "currency": "USD"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Eiffel Tower",
+      "description": "Visit and enjoy Eiffel Tower in Paris",
+      "location": "Champ de Mars, Paris",
+      "city": "Paris",
+      "start_time": "12:00",
+      "end_time": "14:00",
+      "date": "2025-09-19",
+      "category": "Landmark",
+      "booking_reference": "ACT54376",
+      "cost": 58.5,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    },
+    {
+      "name": "Louvre Museum",
+      "description": "Visit and enjoy Louvre Museum in Paris",
+      "location": "1st arrondissement, Paris",
+      "city": "Paris",
+      "start_time": "12:00",
+      "end_time": "15:00",
+      "date": "2025-09-19",
+      "category": "Museum",
+      "booking_reference": "ACT61947",
+      "cost": 114.59,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    },
+    {
+      "name": "Montmartre",
+      "description": "Visit and enjoy Montmartre in Paris",
+      "location": "18th arrondissement, Paris",
+      "city": "Paris",
+      "start_time": "09:30",
+      "end_time": "12:30",
+      "date": "2025-09-19",
+      "category": "Neighborhood",
+      "booking_reference": "ACT26289",
+      "cost": 122.69,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "Champs-\u00c9lys\u00e9es",
+      "description": "Visit and enjoy Champs-\u00c9lys\u00e9es in Paris",
+      "location": "8th arrondissement, Paris",
+      "city": "Paris",
+      "start_time": "14:30",
+      "end_time": "15:30",
+      "date": "2025-09-20",
+      "category": "Shopping",
+      "booking_reference": "ACT41677",
+      "cost": 106.01,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "Eiffel Tower",
+      "description": "Visit and enjoy Eiffel Tower in Paris",
+      "location": "Champ de Mars, Paris",
+      "city": "Paris",
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "date": "2025-09-21",
+      "category": "Landmark",
+      "booking_reference": "ACT89580",
+      "cost": 20.36,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "Montmartre",
+      "description": "Visit and enjoy Montmartre in Paris",
+      "location": "18th arrondissement, Paris",
+      "city": "Paris",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "date": "2025-09-21",
+      "category": "Neighborhood",
+      "booking_reference": "ACT53048",
+      "cost": 107.71,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "Notre-Dame",
+      "description": "Visit and enjoy Notre-Dame in Paris",
+      "location": "\u00cele de la Cit\u00e9, Paris",
+      "city": "Paris",
+      "start_time": "16:30",
+      "end_time": "20:00",
+      "date": "2025-09-22",
+      "category": "Landmark",
+      "booking_reference": "ACT52345",
+      "cost": 90.66,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "Eiffel Tower",
+      "description": "Visit and enjoy Eiffel Tower in Paris",
+      "location": "Champ de Mars, Paris",
+      "city": "Paris",
+      "start_time": "13:30",
+      "end_time": "17:30",
+      "date": "2025-09-22",
+      "category": "Landmark",
+      "booking_reference": "ACT37273",
+      "cost": 80.24,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "Montmartre",
+      "description": "Visit and enjoy Montmartre in Paris",
+      "location": "18th arrondissement, Paris",
+      "city": "Paris",
+      "start_time": "09:30",
+      "end_time": "13:30",
+      "date": "2025-09-22",
+      "category": "Neighborhood",
+      "booking_reference": "ACT43424",
+      "cost": 97.42,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Los Angeles",
+      "location": "City Center, Los Angeles",
+      "city": "Los Angeles",
+      "start_time": "14:00",
+      "end_time": "18:30",
+      "date": "2025-09-23",
+      "category": "Sightseeing",
+      "booking_reference": "ACT80298",
+      "cost": 84.48,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Los Angeles",
+      "location": "City Center, Los Angeles",
+      "city": "Los Angeles",
+      "start_time": "10:30",
+      "end_time": "13:00",
+      "date": "2025-09-23",
+      "category": "Sightseeing",
+      "booking_reference": "ACT81763",
+      "cost": 15.45,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Los Angeles",
+      "location": "City Center, Los Angeles",
+      "city": "Los Angeles",
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "date": "2025-09-23",
+      "category": "Sightseeing",
+      "booking_reference": "ACT22722",
+      "cost": 57.04,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Los Angeles",
+      "location": "City Center, Los Angeles",
+      "city": "Los Angeles",
+      "start_time": "09:00",
+      "end_time": "13:30",
+      "date": "2025-09-24",
+      "category": "Sightseeing",
+      "booking_reference": "ACT35706",
+      "cost": 85.51,
+      "currency": "USD",
+      "notes": null
+    }
+  ],
+  "preferences": {
+    "budget_level": "low",
+    "interests": [
+      "Nature",
+      "Sightseeing",
+      "Nightlife"
+    ],
+    "dietary_restrictions": [
+      "Gluten-free",
+      "Nut allergy"
+    ],
+    "mobility_needs": null,
+    "preferred_language": "en"
+  },
+  "notes": "Excited to explore Paris!"
+}

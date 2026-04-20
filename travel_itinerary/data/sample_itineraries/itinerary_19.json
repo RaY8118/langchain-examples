@@ -1,0 +1,239 @@
+{
+  "traveler_name": "Traveler 19",
+  "traveler_email": "traveler19@example.com",
+  "trip_title": "Round-Trip Trip to Lisbon",
+  "destination": "Lisbon",
+  "start_date": "2025-09-27",
+  "end_date": "2025-10-01",
+  "total_travelers": 1,
+  "flights": [
+    {
+      "flight_number": "BA0038",
+      "airline": "United Airlines",
+      "departure_airport": "NRT",
+      "arrival_airport": "SFO",
+      "departure_time": "13:30",
+      "arrival_time": "18:30",
+      "departure_date": "2025-09-27",
+      "arrival_date": "2025-09-27",
+      "gate": "D29",
+      "terminal": "6",
+      "seat": "28F",
+      "class_type": "Business",
+      "baggage_allowance": "1 checked bag"
+    },
+    {
+      "flight_number": "UA0039",
+      "airline": "Air France",
+      "departure_airport": "SFO",
+      "arrival_airport": "NRT",
+      "departure_time": "06:30",
+      "arrival_time": "20:30",
+      "departure_date": "2025-10-01",
+      "arrival_date": "2025-10-01",
+      "gate": "B40",
+      "terminal": "4",
+      "seat": "18B",
+      "class_type": "Premium Economy",
+      "baggage_allowance": "Carry-on only"
+    }
+  ],
+  "accommodations": [
+    {
+      "name": "Hilton Lisbon",
+      "address": "845 Ocean Street",
+      "city": "Lisbon",
+      "country": "Singapore",
+      "check_in": "2025-09-27",
+      "check_out": "2025-10-01",
+      "room_type": "Presidential Suite",
+      "confirmation_number": "CONF168043",
+      "amenities": [
+        "WiFi",
+        "Room Service",
+        "Business Center"
+      ],
+      "contact_phone": "+1-555-240-5041"
+    }
+  ],
+  "transports": [
+    {
+      "mode": "Shuttle",
+      "provider": "Shuttle",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "13:15",
+      "arrival_time": "09:00",
+      "date": "2025-09-29",
+      "booking_reference": "TR21255",
+      "cost": 19.28,
+      "currency": "USD"
+    },
+    {
+      "mode": "Uber",
+      "provider": "Uber",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "05:30",
+      "arrival_time": "23:30",
+      "date": "2025-09-29",
+      "booking_reference": "TR83897",
+      "cost": 24.89,
+      "currency": "USD"
+    },
+    {
+      "mode": "Bus",
+      "provider": "Public Transport",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "04:30",
+      "arrival_time": "23:00",
+      "date": "2025-09-30",
+      "booking_reference": null,
+      "cost": 3.78,
+      "currency": "USD"
+    }
+  ],
+  "activities": [
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Lisbon",
+      "location": "City Center, Lisbon",
+      "city": "Lisbon",
+      "start_time": "15:30",
+      "end_time": "18:30",
+      "date": "2025-09-27",
+      "category": "Sightseeing",
+      "booking_reference": "ACT21948",
+      "cost": 12.54,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Lisbon",
+      "location": "City Center, Lisbon",
+      "city": "Lisbon",
+      "start_time": "13:30",
+      "end_time": "16:00",
+      "date": "2025-09-27",
+      "category": "Sightseeing",
+      "booking_reference": "ACT94445",
+      "cost": 127.22,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Lisbon",
+      "location": "City Center, Lisbon",
+      "city": "Lisbon",
+      "start_time": "11:00",
+      "end_time": "14:00",
+      "date": "2025-09-27",
+      "category": "Sightseeing",
+      "booking_reference": "ACT14784",
+      "cost": 52.26,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Lisbon",
+      "location": "City Center, Lisbon",
+      "city": "Lisbon",
+      "start_time": "12:30",
+      "end_time": "15:00",
+      "date": "2025-09-28",
+      "category": "Sightseeing",
+      "booking_reference": "ACT70403",
+      "cost": 27.62,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Lisbon",
+      "location": "City Center, Lisbon",
+      "city": "Lisbon",
+      "start_time": "14:30",
+      "end_time": "18:30",
+      "date": "2025-09-28",
+      "category": "Sightseeing",
+      "booking_reference": "ACT38255",
+      "cost": 17.79,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Lisbon",
+      "location": "City Center, Lisbon",
+      "city": "Lisbon",
+      "start_time": "15:30",
+      "end_time": "16:00",
+      "date": "2025-09-28",
+      "category": "Sightseeing",
+      "booking_reference": "ACT41661",
+      "cost": 5.12,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Lisbon",
+      "location": "City Center, Lisbon",
+      "city": "Lisbon",
+      "start_time": "16:30",
+      "end_time": "17:00",
+      "date": "2025-09-29",
+      "category": "Sightseeing",
+      "booking_reference": "ACT80307",
+      "cost": 78.64,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Los Angeles",
+      "location": "City Center, Los Angeles",
+      "city": "Los Angeles",
+      "start_time": "11:30",
+      "end_time": "14:00",
+      "date": "2025-09-30",
+      "category": "Sightseeing",
+      "booking_reference": "ACT41042",
+      "cost": 65.81,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Los Angeles",
+      "location": "City Center, Los Angeles",
+      "city": "Los Angeles",
+      "start_time": "11:30",
+      "end_time": "15:00",
+      "date": "2025-09-30",
+      "category": "Sightseeing",
+      "booking_reference": "ACT31572",
+      "cost": 3.89,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    }
+  ],
+  "preferences": {
+    "budget_level": "low",
+    "interests": [
+      "Relaxation",
+      "Food & Dining"
+    ],
+    "dietary_restrictions": [
+      null,
+      "Gluten-free"
+    ],
+    "mobility_needs": null,
+    "preferred_language": "en"
+  },
+  "notes": "Excited to explore Lisbon!"
+}

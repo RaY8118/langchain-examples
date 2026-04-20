@@ -1,0 +1,3 @@
+flight_number,airline,departure_airport,arrival_airport,departure_time,arrival_time,departure_date,arrival_date,gate,terminal,seat,class_type,baggage_allowance
+BA0002,Lufthansa,JFK,JFK,15:15,01:15,2025-09-03,2025-09-04,D17,2,1E,Premium Economy,2 checked bags
+LH0003,British Airways,JFK,JFK,18:15,07:15,2025-09-08,2025-09-09,B34,5,7F,Business,Carry-on only

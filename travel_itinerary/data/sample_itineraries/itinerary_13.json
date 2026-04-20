@@ -1,0 +1,253 @@
+{
+  "traveler_name": "Traveler 13",
+  "traveler_email": "traveler13@example.com",
+  "trip_title": "Round-Trip Trip to Hong Kong",
+  "destination": "Hong Kong",
+  "start_date": "2025-04-04",
+  "end_date": "2025-04-08",
+  "total_travelers": 3,
+  "flights": [
+    {
+      "flight_number": "DL0026",
+      "airline": "Cathay Pacific",
+      "departure_airport": "NRT",
+      "arrival_airport": "HKG",
+      "departure_time": "18:00",
+      "arrival_time": "08:00",
+      "departure_date": "2025-04-04",
+      "arrival_date": "2025-04-05",
+      "gate": "C33",
+      "terminal": "5",
+      "seat": "26E",
+      "class_type": "First",
+      "baggage_allowance": "2 checked bags"
+    },
+    {
+      "flight_number": "AA0027",
+      "airline": "Singapore Airlines",
+      "departure_airport": "HKG",
+      "arrival_airport": "NRT",
+      "departure_time": "17:15",
+      "arrival_time": "22:15",
+      "departure_date": "2025-04-08",
+      "arrival_date": "2025-04-08",
+      "gate": "A33",
+      "terminal": "8",
+      "seat": "24B",
+      "class_type": "First",
+      "baggage_allowance": "Carry-on only"
+    }
+  ],
+  "accommodations": [
+    {
+      "name": "W Hotels Hong Kong",
+      "address": "429 Central Street",
+      "city": "Hong Kong",
+      "country": "Singapore",
+      "check_in": "2025-04-04",
+      "check_out": "2025-04-08",
+      "room_type": "Standard Room",
+      "confirmation_number": "CONF483220",
+      "amenities": [
+        "WiFi",
+        "Gym",
+        "Room Service"
+      ],
+      "contact_phone": "+1-555-252-2129"
+    }
+  ],
+  "transports": [
+    {
+      "mode": "Rental Car",
+      "provider": "Hertz",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "19:00",
+      "arrival_time": "02:45",
+      "date": "2025-04-06",
+      "booking_reference": "CAR198032",
+      "cost": 156.76,
+      "currency": "USD"
+    },
+    {
+      "mode": "Uber",
+      "provider": "Uber",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "04:45",
+      "arrival_time": "13:00",
+      "date": "2025-04-04",
+      "booking_reference": "TR73731",
+      "cost": 98.22,
+      "currency": "USD"
+    },
+    {
+      "mode": "Metro",
+      "provider": "Public Transport",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "22:45",
+      "arrival_time": "12:30",
+      "date": "2025-04-06",
+      "booking_reference": null,
+      "cost": 4.99,
+      "currency": "USD"
+    }
+  ],
+  "activities": [
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Hong Kong",
+      "location": "City Center, Hong Kong",
+      "city": "Hong Kong",
+      "start_time": "12:00",
+      "end_time": "15:00",
+      "date": "2025-04-04",
+      "category": "Sightseeing",
+      "booking_reference": "ACT50665",
+      "cost": 48.54,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Hong Kong",
+      "location": "City Center, Hong Kong",
+      "city": "Hong Kong",
+      "start_time": "16:00",
+      "end_time": "19:00",
+      "date": "2025-04-04",
+      "category": "Sightseeing",
+      "booking_reference": "ACT80900",
+      "cost": 109.42,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Hong Kong",
+      "location": "City Center, Hong Kong",
+      "city": "Hong Kong",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "date": "2025-04-05",
+      "category": "Sightseeing",
+      "booking_reference": "ACT28866",
+      "cost": 91.79,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Hong Kong",
+      "location": "City Center, Hong Kong",
+      "city": "Hong Kong",
+      "start_time": "09:00",
+      "end_time": "11:30",
+      "date": "2025-04-05",
+      "category": "Sightseeing",
+      "booking_reference": "ACT12955",
+      "cost": 142.3,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Hong Kong",
+      "location": "City Center, Hong Kong",
+      "city": "Hong Kong",
+      "start_time": "09:00",
+      "end_time": "13:00",
+      "date": "2025-04-06",
+      "category": "Sightseeing",
+      "booking_reference": "ACT39334",
+      "cost": 115.04,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Hong Kong",
+      "location": "City Center, Hong Kong",
+      "city": "Hong Kong",
+      "start_time": "16:00",
+      "end_time": "20:30",
+      "date": "2025-04-06",
+      "category": "Sightseeing",
+      "booking_reference": "ACT28316",
+      "cost": 54.41,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Hong Kong",
+      "location": "City Center, Hong Kong",
+      "city": "Hong Kong",
+      "start_time": "10:30",
+      "end_time": "12:00",
+      "date": "2025-04-06",
+      "category": "Sightseeing",
+      "booking_reference": "ACT56484",
+      "cost": 9.78,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "London Eye",
+      "description": "Visit and enjoy London Eye in London",
+      "location": "Southbank, London",
+      "city": "London",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "date": "2025-04-07",
+      "category": "Attraction",
+      "booking_reference": "ACT27113",
+      "cost": 59.95,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "British Museum",
+      "description": "Visit and enjoy British Museum in London",
+      "location": "Bloomsbury, London",
+      "city": "London",
+      "start_time": "13:30",
+      "end_time": "16:00",
+      "date": "2025-04-07",
+      "category": "Museum",
+      "booking_reference": "ACT40196",
+      "cost": 14.34,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "London Eye",
+      "description": "Visit and enjoy London Eye in London",
+      "location": "Southbank, London",
+      "city": "London",
+      "start_time": "12:00",
+      "end_time": "15:00",
+      "date": "2025-04-07",
+      "category": "Attraction",
+      "booking_reference": "ACT95928",
+      "cost": 114.59,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    }
+  ],
+  "preferences": {
+    "budget_level": "medium",
+    "interests": [
+      "Museum",
+      "Cultural",
+      "Food & Dining"
+    ],
+    "dietary_restrictions": [
+      null
+    ],
+    "mobility_needs": null,
+    "preferred_language": "en"
+  },
+  "notes": "Excited to explore Hong Kong!"
+}

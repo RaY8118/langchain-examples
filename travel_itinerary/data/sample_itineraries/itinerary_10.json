@@ -1,0 +1,207 @@
+{
+  "traveler_name": "Traveler 10",
+  "traveler_email": "traveler10@example.com",
+  "trip_title": "One-Way Trip to Barcelona",
+  "destination": "Barcelona",
+  "start_date": "2025-03-08",
+  "end_date": "2025-03-14",
+  "total_travelers": 2,
+  "flights": [],
+  "accommodations": [
+    {
+      "name": "Four Seasons Barcelona",
+      "address": "74 Ocean Street",
+      "city": "Barcelona",
+      "country": "Singapore",
+      "check_in": "2025-03-08",
+      "check_out": "2025-03-14",
+      "room_type": "Deluxe Room",
+      "confirmation_number": "CONF529209",
+      "amenities": [
+        "Airport Shuttle",
+        "Business Center",
+        "Room Service",
+        "Gym",
+        "Parking"
+      ],
+      "contact_phone": "+1-555-255-4101"
+    }
+  ],
+  "transports": [
+    {
+      "mode": "Taxi",
+      "provider": "Taxi",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "23:30",
+      "arrival_time": "14:45",
+      "date": "2025-03-10",
+      "booking_reference": "TR55892",
+      "cost": 61.66,
+      "currency": "USD"
+    },
+    {
+      "mode": "Train",
+      "provider": "Enterprise",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "14:00",
+      "arrival_time": "10:15",
+      "date": "2025-03-09",
+      "booking_reference": "CAR393914",
+      "cost": 77.78,
+      "currency": "USD"
+    },
+    {
+      "mode": "Shuttle",
+      "provider": "Shuttle",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "10:30",
+      "arrival_time": "13:45",
+      "date": "2025-03-10",
+      "booking_reference": "TR54262",
+      "cost": 116.54,
+      "currency": "USD"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Gothic Quarter",
+      "description": "Visit and enjoy Gothic Quarter in Barcelona",
+      "location": "Ciutat Vella, Barcelona",
+      "city": "Barcelona",
+      "start_time": "15:00",
+      "end_time": "18:00",
+      "date": "2025-03-08",
+      "category": "Neighborhood",
+      "booking_reference": "ACT94196",
+      "cost": 5.22,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "Camp Nou",
+      "description": "Visit and enjoy Camp Nou in Barcelona",
+      "location": "Les Corts, Barcelona",
+      "city": "Barcelona",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "date": "2025-03-08",
+      "category": "Sports",
+      "booking_reference": "ACT25946",
+      "cost": 54.09,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    },
+    {
+      "name": "La Rambla",
+      "description": "Visit and enjoy La Rambla in Barcelona",
+      "location": "Ciutat Vella, Barcelona",
+      "city": "Barcelona",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "date": "2025-03-08",
+      "category": "Shopping",
+      "booking_reference": "ACT34477",
+      "cost": 91.28,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "Sagrada Familia",
+      "description": "Visit and enjoy Sagrada Familia in Barcelona",
+      "location": "Eixample, Barcelona",
+      "city": "Barcelona",
+      "start_time": "12:00",
+      "end_time": "15:00",
+      "date": "2025-03-09",
+      "category": "Landmark",
+      "booking_reference": "ACT12012",
+      "cost": 0.14,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "Sagrada Familia",
+      "description": "Visit and enjoy Sagrada Familia in Barcelona",
+      "location": "Eixample, Barcelona",
+      "city": "Barcelona",
+      "start_time": "15:00",
+      "end_time": "17:30",
+      "date": "2025-03-10",
+      "category": "Landmark",
+      "booking_reference": "ACT85887",
+      "cost": 115.46,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "La Rambla",
+      "description": "Visit and enjoy La Rambla in Barcelona",
+      "location": "Ciutat Vella, Barcelona",
+      "city": "Barcelona",
+      "start_time": "13:30",
+      "end_time": "16:30",
+      "date": "2025-03-11",
+      "category": "Shopping",
+      "booking_reference": "ACT56145",
+      "cost": 110.16,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "Park G\u00fcell",
+      "description": "Visit and enjoy Park G\u00fcell in Barcelona",
+      "location": "Gr\u00e0cia, Barcelona",
+      "city": "Barcelona",
+      "start_time": "13:00",
+      "end_time": "15:00",
+      "date": "2025-03-11",
+      "category": "Park",
+      "booking_reference": "ACT53142",
+      "cost": 147.28,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "Brooklyn Bridge",
+      "description": "Visit and enjoy Brooklyn Bridge in New York",
+      "location": "Brooklyn, New York",
+      "city": "New York",
+      "start_time": "13:00",
+      "end_time": "15:00",
+      "date": "2025-03-12",
+      "category": "Landmark",
+      "booking_reference": "ACT17595",
+      "cost": 132.79,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "Statue of Liberty",
+      "description": "Visit and enjoy Statue of Liberty in New York",
+      "location": "Manhattan, New York",
+      "city": "New York",
+      "start_time": "13:00",
+      "end_time": "15:30",
+      "date": "2025-03-13",
+      "category": "Landmark",
+      "booking_reference": "ACT84047",
+      "cost": 105.95,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    }
+  ],
+  "preferences": {
+    "budget_level": "high",
+    "interests": [
+      "Nature",
+      "Sports"
+    ],
+    "dietary_restrictions": [],
+    "mobility_needs": null,
+    "preferred_language": "en"
+  },
+  "notes": "Excited to explore Barcelona!"
+}

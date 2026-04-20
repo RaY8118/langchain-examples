@@ -1,0 +1,255 @@
+{
+  "traveler_name": "Traveler 11",
+  "traveler_email": "traveler11@example.com",
+  "trip_title": "Round-Trip Trip to Amsterdam",
+  "destination": "Amsterdam",
+  "start_date": "2025-01-16",
+  "end_date": "2025-01-23",
+  "total_travelers": 2,
+  "flights": [
+    {
+      "flight_number": "BA0022",
+      "airline": "United Airlines",
+      "departure_airport": "MAD",
+      "arrival_airport": "AMS",
+      "departure_time": "09:45",
+      "arrival_time": "15:45",
+      "departure_date": "2025-01-16",
+      "arrival_date": "2025-01-16",
+      "gate": "B31",
+      "terminal": "2",
+      "seat": "26F",
+      "class_type": "Premium Economy",
+      "baggage_allowance": "Carry-on only"
+    },
+    {
+      "flight_number": "BA0023",
+      "airline": "British Airways",
+      "departure_airport": "AMS",
+      "arrival_airport": "MAD",
+      "departure_time": "07:00",
+      "arrival_time": "12:00",
+      "departure_date": "2025-01-23",
+      "arrival_date": "2025-01-23",
+      "gate": "A37",
+      "terminal": "4",
+      "seat": "25F",
+      "class_type": "Economy",
+      "baggage_allowance": "Carry-on only"
+    }
+  ],
+  "accommodations": [
+    {
+      "name": "Four Seasons Amsterdam",
+      "address": "162 Grand Street",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "check_in": "2025-01-16",
+      "check_out": "2025-01-23",
+      "room_type": "Suite",
+      "confirmation_number": "CONF485309",
+      "amenities": [
+        "Pool",
+        "Business Center",
+        "Airport Shuttle",
+        "Parking",
+        "Gym",
+        "Room Service"
+      ],
+      "contact_phone": "+1-555-130-2310"
+    }
+  ],
+  "transports": [
+    {
+      "mode": "Ferry",
+      "provider": "Avis",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "22:45",
+      "arrival_time": "12:30",
+      "date": "2025-01-22",
+      "booking_reference": "CAR445460",
+      "cost": 92.86,
+      "currency": "USD"
+    },
+    {
+      "mode": "Rental Car",
+      "provider": "Hertz",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "10:30",
+      "arrival_time": "12:00",
+      "date": "2025-01-21",
+      "booking_reference": "CAR312984",
+      "cost": 156.15,
+      "currency": "USD"
+    },
+    {
+      "mode": "Uber",
+      "provider": "Uber",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "05:15",
+      "arrival_time": "21:00",
+      "date": "2025-01-21",
+      "booking_reference": "TR58658",
+      "cost": 20.86,
+      "currency": "USD"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Rijksmuseum",
+      "description": "Visit and enjoy Rijksmuseum in Amsterdam",
+      "location": "Museumplein, Amsterdam",
+      "city": "Amsterdam",
+      "start_time": "14:00",
+      "end_time": "16:30",
+      "date": "2025-01-16",
+      "category": "Museum",
+      "booking_reference": "ACT52064",
+      "cost": 120.74,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "Anne Frank House",
+      "description": "Visit and enjoy Anne Frank House in Amsterdam",
+      "location": "Centrum, Amsterdam",
+      "city": "Amsterdam",
+      "start_time": "12:30",
+      "end_time": "13:00",
+      "date": "2025-01-17",
+      "category": "Museum",
+      "booking_reference": "ACT53012",
+      "cost": 9.53,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "Anne Frank House",
+      "description": "Visit and enjoy Anne Frank House in Amsterdam",
+      "location": "Centrum, Amsterdam",
+      "city": "Amsterdam",
+      "start_time": "13:00",
+      "end_time": "17:00",
+      "date": "2025-01-17",
+      "category": "Historical",
+      "booking_reference": "ACT37846",
+      "cost": 60.13,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "Vondelpark",
+      "description": "Visit and enjoy Vondelpark in Amsterdam",
+      "location": "Oud-West, Amsterdam",
+      "city": "Amsterdam",
+      "start_time": "11:00",
+      "end_time": "15:30",
+      "date": "2025-01-17",
+      "category": "Park",
+      "booking_reference": "ACT59989",
+      "cost": 94.92,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "Vondelpark",
+      "description": "Visit and enjoy Vondelpark in Amsterdam",
+      "location": "Oud-West, Amsterdam",
+      "city": "Amsterdam",
+      "start_time": "15:00",
+      "end_time": "19:30",
+      "date": "2025-01-18",
+      "category": "Park",
+      "booking_reference": "ACT65515",
+      "cost": 93.39,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "Anne Frank House",
+      "description": "Visit and enjoy Anne Frank House in Amsterdam",
+      "location": "Centrum, Amsterdam",
+      "city": "Amsterdam",
+      "start_time": "13:00",
+      "end_time": "16:00",
+      "date": "2025-01-19",
+      "category": "Museum",
+      "booking_reference": "ACT17943",
+      "cost": 42.92,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Hong Kong",
+      "location": "City Center, Hong Kong",
+      "city": "Hong Kong",
+      "start_time": "09:30",
+      "end_time": "10:30",
+      "date": "2025-01-20",
+      "category": "Sightseeing",
+      "booking_reference": "ACT23514",
+      "cost": 2.39,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Hong Kong",
+      "location": "City Center, Hong Kong",
+      "city": "Hong Kong",
+      "start_time": "13:00",
+      "end_time": "17:30",
+      "date": "2025-01-21",
+      "category": "Sightseeing",
+      "booking_reference": "ACT38348",
+      "cost": 19.11,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Hong Kong",
+      "location": "City Center, Hong Kong",
+      "city": "Hong Kong",
+      "start_time": "12:30",
+      "end_time": "15:00",
+      "date": "2025-01-21",
+      "category": "Sightseeing",
+      "booking_reference": "ACT24083",
+      "cost": 31.09,
+      "currency": "USD",
+      "notes": "Bring camera"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Hong Kong",
+      "location": "City Center, Hong Kong",
+      "city": "Hong Kong",
+      "start_time": "16:30",
+      "end_time": "20:00",
+      "date": "2025-01-22",
+      "category": "Sightseeing",
+      "booking_reference": "ACT86026",
+      "cost": 28.26,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    }
+  ],
+  "preferences": {
+    "budget_level": "low",
+    "interests": [
+      "Nightlife",
+      "Sightseeing"
+    ],
+    "dietary_restrictions": [
+      "Nut allergy"
+    ],
+    "mobility_needs": null,
+    "preferred_language": "en"
+  },
+  "notes": "Excited to explore Amsterdam!"
+}

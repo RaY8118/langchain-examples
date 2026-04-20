@@ -1,0 +1,23 @@
+Travel Itinerary Optimization and Summary Generator
+
+PROBLEM STATEMENT
+
+Travel agencies and logistics companies often create complex itineraries involving multiple transportation modes, accommodation, and activities for travelers. These itineraries can be difficult for customers to understand quickly, leading to confusion, missed connections, and poor customer satisfaction. Manual itinerary preparation and explanation is time-consuming and error-prone. Current digital itinerary tools often lack personalized summaries and easy-to-understand overviews. There is a need for an Al-driven assistant that can generate optimized, concise travel summaries tailored to individual traveler preferences and constraints, enhancing clarity and travel experience.
+
+Data Considerations:
+
+I
+
+Sample travel itinerary data including flight details, accommodation bookings, transport schedules in JSON or CSV
+
+formats. Data volume should include at least 20 diverse itineraries covering different travel modes and durations. Data
+
+may come from booking APIs or synthetic generation based on typical travel agent templates. Preprocessing involves normalizing date/time formats and extracting key attributes. Privacy considerations include anonymizing traveler personal data. Lightweight integration with travel APIs (e.g., Amadeus) can be considered for enrichment.
+
+Consider using synthetic or anonymized data where appropriate. Ensure data quality and relevance to the problem context.
+
+SOLUTION EXPECTATIONS
+
+An Al-powered travel assistant that generates concise, personalized itinerary summaries from input travel data. Features include natural language generation of day-wise plans, highlighting connections, timings, and travel tips. The prototype Ul allows users to upload itinerary files or enter details manually and view the summary output. Success is measured by reduced customer support queries and user feedback on clarity. The demo will show processing of multi-leg itineraries and generation of easy-to-read outputs within minutes, showcasing the Al's contextual understanding and summarization capabilities.
+
+Feel free to explore creative solutions that align with the problem context and objectives.

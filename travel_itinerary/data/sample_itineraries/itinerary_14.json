@@ -1,0 +1,209 @@
+{
+  "traveler_name": "Traveler 14",
+  "traveler_email": "traveler14@example.com",
+  "trip_title": "One-Way Trip to Istanbul",
+  "destination": "Istanbul",
+  "start_date": "2025-04-05",
+  "end_date": "2025-04-11",
+  "total_travelers": 2,
+  "flights": [],
+  "accommodations": [
+    {
+      "name": "Westin Istanbul",
+      "address": "242 Central Street",
+      "city": "Istanbul",
+      "country": "Singapore",
+      "check_in": "2025-04-05",
+      "check_out": "2025-04-11",
+      "room_type": "Deluxe Room",
+      "confirmation_number": "CONF458588",
+      "amenities": [
+        "Spa",
+        "Restaurant",
+        "Pool"
+      ],
+      "contact_phone": "+1-555-406-4242"
+    }
+  ],
+  "transports": [
+    {
+      "mode": "Train",
+      "provider": "Avis",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "20:00",
+      "arrival_time": "08:45",
+      "date": "2025-04-10",
+      "booking_reference": "CAR615209",
+      "cost": 101.92,
+      "currency": "USD"
+    },
+    {
+      "mode": "Rental Car",
+      "provider": "Avis",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "21:30",
+      "arrival_time": "17:15",
+      "date": "2025-04-07",
+      "booking_reference": "CAR756994",
+      "cost": 163.35,
+      "currency": "USD"
+    },
+    {
+      "mode": "Shuttle",
+      "provider": "Shuttle",
+      "pickup_location": "Hotel",
+      "dropoff_location": "Activity Venue",
+      "departure_time": "18:15",
+      "arrival_time": "12:15",
+      "date": "2025-04-08",
+      "booking_reference": "TR93321",
+      "cost": 33.68,
+      "currency": "USD"
+    }
+  ],
+  "activities": [
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Istanbul",
+      "location": "City Center, Istanbul",
+      "city": "Istanbul",
+      "start_time": "13:00",
+      "end_time": "14:30",
+      "date": "2025-04-05",
+      "category": "Sightseeing",
+      "booking_reference": "ACT44770",
+      "cost": 8.58,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Istanbul",
+      "location": "City Center, Istanbul",
+      "city": "Istanbul",
+      "start_time": "14:00",
+      "end_time": "18:30",
+      "date": "2025-04-06",
+      "category": "Sightseeing",
+      "booking_reference": "ACT69243",
+      "cost": 99.43,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Istanbul",
+      "location": "City Center, Istanbul",
+      "city": "Istanbul",
+      "start_time": "09:00",
+      "end_time": "11:30",
+      "date": "2025-04-06",
+      "category": "Sightseeing",
+      "booking_reference": "ACT58397",
+      "cost": 12.65,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Istanbul",
+      "location": "City Center, Istanbul",
+      "city": "Istanbul",
+      "start_time": "13:30",
+      "end_time": "15:30",
+      "date": "2025-04-07",
+      "category": "Sightseeing",
+      "booking_reference": "ACT14167",
+      "cost": 14.49,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Istanbul",
+      "location": "City Center, Istanbul",
+      "city": "Istanbul",
+      "start_time": "16:00",
+      "end_time": "19:30",
+      "date": "2025-04-08",
+      "category": "Sightseeing",
+      "booking_reference": "ACT81206",
+      "cost": 18.78,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "City Tour",
+      "description": "Visit and enjoy City Tour in Istanbul",
+      "location": "City Center, Istanbul",
+      "city": "Istanbul",
+      "start_time": "09:30",
+      "end_time": "12:00",
+      "date": "2025-04-08",
+      "category": "Sightseeing",
+      "booking_reference": "ACT44959",
+      "cost": 83.35,
+      "currency": "USD",
+      "notes": "Free cancellation"
+    },
+    {
+      "name": "Vatican Museums",
+      "description": "Visit and enjoy Vatican Museums in Rome",
+      "location": "Vatican City, Rome",
+      "city": "Rome",
+      "start_time": "13:00",
+      "end_time": "15:30",
+      "date": "2025-04-09",
+      "category": "Museum",
+      "booking_reference": "ACT91688",
+      "cost": 93.01,
+      "currency": "USD",
+      "notes": null
+    },
+    {
+      "name": "Roman Forum",
+      "description": "Visit and enjoy Roman Forum in Rome",
+      "location": "Centro Storico, Rome",
+      "city": "Rome",
+      "start_time": "13:30",
+      "end_time": "17:00",
+      "date": "2025-04-09",
+      "category": "Archaeological",
+      "booking_reference": "ACT65155",
+      "cost": 18.17,
+      "currency": "USD",
+      "notes": "Wear comfortable shoes"
+    },
+    {
+      "name": "Pantheon",
+      "description": "Visit and enjoy Pantheon in Rome",
+      "location": "Centro Storico, Rome",
+      "city": "Rome",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "date": "2025-04-10",
+      "category": "Landmark",
+      "booking_reference": "ACT54193",
+      "cost": 22.53,
+      "currency": "USD",
+      "notes": "Advance booking recommended"
+    }
+  ],
+  "preferences": {
+    "budget_level": "low",
+    "interests": [
+      "Nightlife",
+      "Museum",
+      "Food & Dining"
+    ],
+    "dietary_restrictions": [
+      "Gluten-free",
+      null
+    ],
+    "mobility_needs": null,
+    "preferred_language": "en"
+  },
+  "notes": "Excited to explore Istanbul!"
+}
