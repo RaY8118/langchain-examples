@@ -1,64 +1,78 @@
 import streamlit as st
-from pdfminer.high_level import extract_text
-from langchain_openrouter import ChatOpenRouter
-from langchain_ollama import OllamaEmbeddings
-from langchain_community.vectorstores import Chroma
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_classic.chains import create_retrieval_chain
-from langchain_classic.chains.combine_documents import create_stuff_documents_chain
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_huggingface import HuggingFaceEmbeddings
 import tempfile
+import os
 
-# LLM and Embedding setup
-llm = ChatOpenRouter(
-    model="openai/gpt-oss-120b:free",
+from utils import (
+    split_documents_semantic,
+    load_pdf,
+    create_vectorstore,
+    create_huggingface_embeddings,
+    create_vector_retriever,
+    create_bm25_retriever,
+    create_ensemble_retriever,
+    create_rag_chain,
+    ask_question,
+    create_openrouter_llm as create_llm,
 )
 
-embedding_model = OllamaEmbeddings(
-    model="nomic-embed-text",
-)
-
-# Embedding model
-embedding_model = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2",
-    model_kwargs={'device': 'cpu'},
-    encode_kwargs={'normalize_embeddings': True}
-)
 
 st.set_page_config(page_title="RAG PDF Summarizer")
 st.title("RAG-powered PDF Summarizer")
+
+if "rag_chain" not in st.session_state:
+    st.session_state.rag_chain = None
+
+if "temp_file_path" not in st.session_state:
+    st.session_state.temp_file_path = None
+
 upload_file = st.file_uploader("Upload a PDF", type="pdf")
-if upload_file:
-    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
-        temp_file.write(upload_file.read())
-        temp_file_path = temp_file.name
 
-        # Step 1: Extract text
-        raw_text = extract_text(temp_file_path)
+if upload_file and st.session_state.rag_chain is None:
+    try:
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
+            temp_file.write(upload_file.read())
+            st.session_state.temp_file_path = temp_file.name
 
-        # Step 2: Chunking
-        text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=1000, chunk_overlap=200)
+        with st.spinner("Loading PDF..."):
+            docs = load_pdf(st.session_state.temp_file_path)
 
-        chunks = text_splitter.split_text(raw_text)
+        with st.spinner("Creating embeddings..."):
+            embeddings = create_huggingface_embeddings()
 
-        # Step 3: Embed and store in Chroma
+        with st.spinner("Chunking document..."):
+            chunks = split_documents_semantic(docs, embeddings)
+
         with st.spinner("Indexing document..."):
-            vectordb = Chroma.from_texts(
-                chunks, embedding_model, persist_directory="./chroma_index")
-            vectordb.persist()
+            vectorstore = create_vectorstore(
+                chunks, embeddings, persist_directory="./chroma_index"
+            )
+            vectorstore.persist()
 
-            # Step 4: RAG QA Chain
-            retriever = vectordb.as_retriever(
-                search_type="similarity", search_kwargs={"k": 5})
-            prompt = ChatPromptTemplate.from_template("{context}\n\n{input}")
-            # Create the chains
-            question_answer_chain = create_stuff_documents_chain(llm, prompt)
-            rag_chain = create_retrieval_chain(
-                retriever, question_answer_chain)
-            summary_prompt = "Please summarize the documents based on key topics"
-            with st.spinner("Running RAG summarization..."):
-                result = rag_chain.invoke({"input": summary_prompt})
-            st.subheader("Summary")
-            st.write(result["answer"])
+            vector_retriever = create_vector_retriever(vectorstore)
+            bm25_retriever = create_bm25_retriever(chunks)
+            ensemble_retriever = create_ensemble_retriever(
+                bm25_retriever, vector_retriever
+            )
+
+            llm = create_llm()
+            st.session_state.rag_chain = create_rag_chain(llm, ensemble_retriever)
+
+        st.success("PDF indexed successfully! Ask your question.")
+
+    except Exception as e:
+        st.error(f"Error processing PDF: {str(e)}")
+        if st.session_state.temp_file_path and os.path.exists(
+            st.session_state.temp_file_path
+        ):
+            os.unlink(st.session_state.temp_file_path)
+
+if st.session_state.rag_chain is not None:
+    question = st.text_input("Ask a question about the PDF")
+    if question:
+        with st.spinner("Generating answer..."):
+            try:
+                result = ask_question(question, st.session_state.rag_chain)
+                st.subheader("Answer")
+                st.write(result)
+            except Exception as e:
+                st.error(f"Error generating answer: {str(e)}")
