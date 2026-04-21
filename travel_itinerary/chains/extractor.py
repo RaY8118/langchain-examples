@@ -1,12 +1,8 @@
-from langchain_openrouter import ChatOpenRouter
-from langchain_ollama import ChatOllama
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.output_parsers import PydanticOutputParser
+from langchain_core.prompts import PromptTemplate
 from models.itinerary import Itinerary
-import pandas as pd  # for CSV handling
+from llm.get_llm import local_llm as llm
 
-# llm = ChatOpenRouter(model="openai/gpt-oss-120b:free")
-# llm = ChatOllama(model="llama3.2:1b")
-llm = ChatGoogleGenerativeAI(model="gemini-3.1-flash-lite-preview")
 structured_llm = llm.with_structured_output(Itinerary)
 
 
@@ -19,16 +15,23 @@ def extract_from_text(text: str) -> Itinerary:
         Itinerary model populated with whatever fields the model can infer.
     """
 
-    # Existing implementation follows
+    parser = PydanticOutputParser(pydantic_object=Itinerary)
+    prompt = PromptTemplate(
+        template="""
+    You are an information extraction system.
 
-    prompt = f"""Extract the itinerary details from this text. 
-Extract only what is explicitly mentioned. Leave fields empty/None if not mentioned.
+    Extract structured travel data from the text.
 
-Text: {text}
+    {format_instructions}
 
-Return all the details you can find."""
-
-    result = structured_llm.invoke(prompt)
+    Text:
+    {text}
+    """,
+        input_variables=["text"],
+        partial_variables={"format_instructions": parser.get_format_instructions()},
+    )
+    formatted_prompt = prompt.format(text=text)
+    result = structured_llm.invoke(formatted_prompt)
     if isinstance(result, dict):
         return Itinerary(**result)
-    return result
+    return result  # type: ignore

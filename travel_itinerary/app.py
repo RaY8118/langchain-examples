@@ -1,5 +1,6 @@
 from utils.data_loader import load_json_itinerary, load_directory
 from chains.extractor import extract_from_text
+from chains.summary import summary_from_data
 
 
 # DATA_PATH = "data/sample_itineraries/itinerary_01.json"
@@ -17,5 +18,8 @@ We'll stay at the Marriott Champs-Elysees for 4 nights, checking in June 5th and
 We want to visit the Louvre Museum, Eiffel Tower, and have dinner at a nice French restaurant in Montmartre."""
 
 
-result = extract_from_text(text=text)
-print(result)
+extracted_data = extract_from_text(text=text)
+print(extracted_data)
+
+summarized_data = summary_from_data(str(extracted_data))
+print(summarized_data)
